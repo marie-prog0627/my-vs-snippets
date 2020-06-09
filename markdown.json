@@ -1,0 +1,74 @@
+{
+	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Introduction": {
+		"prefix": "intro",
+		"body": [
+			"# Intro ",
+			"## 必要な事柄",
+			"1. どうしてこの事象は問題なのか．(技術的, 社会的問題)",
+			"",
+			"2. 既存のものの流れはどのようなものだったか．",
+			"",
+			"3. 既存では満足する解決ではないのはどうしてか．(なぜ既存では解決ができなかったのか)",
+			"",
+			"4. 研究の目的",
+			"",
+			"5. この提案する手法では，どこが改善されることでどんなことが満足に解決が可能なのか． ",
+			"",
+			"6. this work's contributions follows bellow:",
+			"",
+			"7. この論文の章構成",
+			""
+		],
+		"description": "Create Article Temp of Intro"
+	},
+	"RW": {
+		"prefix": "related",
+		"body": [
+			"# Related Works ",
+			"## 必要な事柄",
+			"1. この研究の発想の元となった研究分野",
+			"",
+			"2. Our Contribution(相違点，どのように発展させることができるか)",
+			""
+		],
+		"description": "Create Article Temp of Related Works"
+	},
+	"Process": {
+		"prefix": "process",
+		"body": [
+			"# Propose Process ",
+			"## 必要な事柄",
+			"1. 課題の再提示と，解決するシステムの宣言(後者は一言)",
+			"",
+			"2. システムの概要, 動作フロー",
+			"",
+			"3. 各パーツ，信号の説明",
+			"",
+		],
+		"description": "Create Article Temp of Propose Process"
+	},
+	"US": {
+		"prefix": "userstudy",
+		"body": [
+			"# User Study ",
+			"## 必要な事柄",
+			"1. 明らかにしなければならないことの列挙",
+			"",
+			"2. 実験状況説明",
+			"    1. どんなツールで",
+			"",
+			"    2. どんな条件で(どんな人数，どのくらいの回数)",
+			"",
+			"    3. どこを比較したのか",
+			""
+		],
+		"description": "Create Article Temp of User Study"
+	}
+
+
+}
